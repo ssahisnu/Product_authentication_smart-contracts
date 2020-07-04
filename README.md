@@ -1,1 +1,1 @@
-# Product_authentication_samrt-contracts
+# Product_authentication_smart-contracts
