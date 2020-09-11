@@ -105,27 +105,7 @@ contract ProductAuth{
             pdt.distributed_time = block.timestamp;
     }
 
-    // function getProductDetails(uint _productId) public view
-    // afterDistribute(_productId)
-    // checkId(_productId)returns(
-    //     string  memory name,
-    //     string memory description,
-    //     address owner,
-    //     string memory manufacturer_name,
-    //     string memory manufacturer_location,
-    //     uint manufactured_time,
-    //     string memory assembler_name,
-    //     string memory assembler_location,
-    //     uint assembled_time,
-    //     string memory distributor_name,
-    //     string memory distributor_location,
-    //     uint distributed_time)
-    // {
-    //     product_info storage pdt = product_map[_productId];
-    //     return(pdt.name,pdt.description,pdt.owner,pdt.manufacturer_name,pdt.manufacturer_location,pdt.manufactured_time,
-    //     pdt.assembler_name,pdt.assembler_location,pdt.assembled_time,pdt.distributor_name,pdt.distributor_location,distributed_time);
-    // }
-
+    
     function getManufactureDetails(uint _productId) public view
     checkId(_productId) returns (string memory name,
         string memory description,
